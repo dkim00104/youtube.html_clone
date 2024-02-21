@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>14e</title>
+
+        <style>
+            body {
+                height: 3000px;
+            }
+
+            div {
+                font-family: Roboto, Arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: white;
+                height: 80px;
+                position: fixed;
+                left: 0px;
+                right: 0px;
+                top: 0px;
+
+            }
+
+            .left-section {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                column-gap: 12px;
+                padding-left: 100px;
+            }
+
+            .user-picture {
+                width: 50px;
+                border-radius: 50%;
+            }
+
+            .username {
+                font-weight: bold;
+            }
+
+            .right-section {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                column-gap: 8px;
+                padding-right: 90px;
+            }
+
+            .add-friend-button {
+                background-color: rgb(0, 102, 255);
+                color: white;
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 6px;
+                font-weight: bold;
+            }
+
+            .message-button {
+                background-color: rgb(212, 212, 212);
+                color: black;
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 6px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <div class="profile-picture">
+                    <img class="user-picture" src="/channel-pictures/channel-1.jpeg">
+                </div>
+                <div class="username">
+                    Oliver Cat
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="button-1">
+                    <button class="add-friend-button">Add Friend</button>
+                </div>
+                <div class="button-2">
+                    <button class="message-button">Message</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

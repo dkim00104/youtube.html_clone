@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>14f</title>
+
+        <style>
+            div {
+                font-family: Roboto, Arial;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+
+            body {
+                height: 3000px;
+            }
+
+            .double-sidebar {
+                display: flex;
+                flex-direction: row;
+                position: fixed;
+                left: 0px;
+                bottom: 0px;
+                top: 0px;
+                background-color: grey;
+            }
+
+            .left-section {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(33, 33, 33);
+                padding-top: 20px;
+                padding-left: 16px;
+                padding-right: 16px;
+                row-gap: 3px;
+            }
+
+            .user-picture {
+                width: 60px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .right-section {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(55, 55, 55);
+                padding-top: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+
+            }
+
+            .info-bar {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 110px;
+            }
+
+            .info {
+                color: white;
+                font-weight: bold;
+            }
+
+            .add-button {
+                background-color: none;
+                border: none;
+                color: grey;
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+            .channel-row {
+                color: grey;
+                line-height: 40px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="double-sidebar">
+            <div class="left-section">
+                <div class="user-1"><img class="user-picture" src="/channel-pictures/channel-1.jpeg"></div>
+                <div class="user-2"><img class="user-picture" src="/channel-pictures/channel-2.jpeg"></div>
+                <div class="user-3"><img class="user-picture" src="/channel-pictures/channel-3.jpeg"></div>
+            </div>
+            <div class="right-section">
+                <div class="info-bar">
+                    <div class="info">INFO</div>
+                    <div class="add-button">+</div>
+                </div>
+                <div class="channel-row">
+                    <div class="new-videos"># new-videos</div>
+                    <div class="updates"># updates</div>
+                    <div class="faq"># faq</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

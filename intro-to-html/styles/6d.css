@@ -1,0 +1,22 @@
+p {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Montserrat;
+}
+
+.model-type {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+
+.order {
+    font-size: 24px;
+}
+
+.touchless-delivery {
+    text-decoration: underline;
+    cursor: pointer;
+}

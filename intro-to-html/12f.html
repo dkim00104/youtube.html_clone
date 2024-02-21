@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12f</title>
+
+        <style>
+            div {
+                font-family: Arial;
+            }
+
+            .flexbox {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .container {
+                background-color: rgb(172, 71, 255);
+                border: none;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+
+            .left-section {
+                font-weight: bold;
+                color: white;
+                font-size: 16px;
+            }
+
+            .search-bar {
+                border: none;
+                outline: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 16px;
+                width: 800px;
+            }
+
+            .download-button {
+                background-color: rgb(172, 71, 255);
+                border-style: solid;
+                color: white;
+                font-size: 16px;
+                border-color: white;
+                border-width: 1px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="flexbox">
+                <div class="left-section">
+                    Home
+                </div>
+                <div class="middle-section">
+                    <input class="search-bar" placeholder="Search">
+                </div>
+                <div class="right-section">
+                    <button class="download-button">Download</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>15e</title>
+
+        <style>
+            body {
+                height: 3000px;
+                font-family: Arial;
+            }
+
+            .item {
+                position: relative;
+                display: inline-block;
+                z-index: 10;
+            }
+
+            .item-image {
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+                object-position: left;
+            }
+
+            .sale {
+                position: absolute;
+                top: 12px;
+                right: 0px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 14px;
+                padding-right: 14px;
+                background-color: black;
+                color: white;
+            }
+
+            .cart-background {
+                bottom: 0;
+                right: 0;
+                left: 0;
+                height: 100px;
+                background-color: rgba(255, 255, 255, 0.75);
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .add-to-cart-button {
+                background-color: white;
+                color: black;
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="item">
+            <img class="item-image" src="/thumbnails/thumbnail-1.webp">
+            <div class="sale">20% OFF</div>
+            <div class="cart-background">
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>

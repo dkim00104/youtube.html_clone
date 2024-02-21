@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>13g</title>
+
+        <style>
+            div {
+                font-family: Arial;
+            }
+
+            .flexbox {
+                display: flex;
+                flex-direction: column;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                width: 450px;
+            }
+
+            .vrow-1 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                line-height: 20px;
+            }
+
+            .hrow-1 {
+                margin-right: 12px;
+            }
+
+            .user-picture {
+                border-radius: 50%;
+                width: 50px;
+            }
+
+            .vrow-2-1 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .username {
+                font-weight: bold;
+            }
+
+            .handle {
+                color: grey;
+            }
+
+            .vrow-2-2 {
+                width: 400px;
+            }
+
+            .vrow-2 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 10px;
+                border-style: solid;
+                border-color: rgb(202, 202, 202);
+                border-width: 1px;
+                border-radius: 12px;
+                overflow: hidden;
+                width: 335px;
+                margin-left: 63px;
+            }
+
+            .thumbnail {
+                background-color: rgb(202, 202, 202);
+                height: 85px;
+                width: 85px;
+            }
+
+            .video-preview {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .preview-info {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                line-height: 20px;
+                padding-left: 12px;
+            }
+
+            .website {
+                color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flexbox">
+            <div class="vrow-1">
+                <div class="hrow-1">
+                    <div>
+                        <img class="user-picture" src="/channel-pictures/channel-1.jpeg">
+                    </div>
+                </div>
+                <div class="hrow-2">
+                    <div class="vrow-2-1">
+                        <div class="username">supersimple.dev</div>
+                        <div class="handle">@SuperSimpleDev</div>
+                    </div>
+                    <div class="vrow-2-2">
+                        <div class="text">What is backend web development? A complete overview. New video is up!</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div class="vrow-2">
+                <div class="video-preview">
+                    <div class="thumbnail">
+
+                    </div>
+                    <div class="preview-info">
+                        <div class="website">youtube.com</div>
+                        <div class="video-title">Backend web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

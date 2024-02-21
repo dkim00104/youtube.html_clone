@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>13c(d)</title>
+
+        <style>
+            div {
+                font-family: Arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .flexbox {
+                display: flex;
+                flex-direction: column;
+                width: 480px;
+                height: 145px;
+                border-style: solid;
+                border-color: rgb(218, 218, 218);
+                border-width: 1px;
+                border-radius: 6px;
+                box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15)
+            }
+
+            .inbox-title {
+                color: grey;
+                padding-left: 18px;
+                padding-top: 14px;
+            }
+
+            .vrow-2 {
+                display: flex;
+                flex-direction: row;
+                margin-top: 20px;
+                margin-left: 20px;
+                align-items: center;
+            }
+
+            .user-picture {
+                border-radius: 50%;
+                width: 45px;
+            }
+
+            .sender {
+                font-weight: bold;
+                font-size: 18px;
+                margin-right: 160px;
+            }
+
+            .header-title {
+                font-weight: bold;
+            }
+
+            .message {
+                color: grey;
+            }
+
+            .hrow-2 {
+                margin-left: 12px;
+                line-height: 24px;
+            }
+
+            .time-sent {
+                color: grey;
+            }
+
+            .hrow-3 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flexbox">
+            <div class="vrow-1">
+                <div class="inbox">
+                    <div class="inbox-title">
+                        ALL INBOXES
+                    </div>
+                </div>
+            </div>
+            <div class="vrow-2">
+                <div class="hrow-1">
+                    <div class="profile-picture">
+                        <img class="user-picture" src="/channel-pictures/channel-1.jpeg">
+                    </div>
+                </div>
+                <div class="hrow-2">
+                    <div class="hrow-3">
+                        <div class="sender">
+                            Chewy Promotions
+                        </div>
+                        <div class="time-sent">
+                            4:58 PM
+                        </div>
+                    </div>
+                    <div class="header-title">
+                        Biggest sales of the year!
+                    </div>
+                    <div class="message">
+                        Hey there! We're writing to tell you about our...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
